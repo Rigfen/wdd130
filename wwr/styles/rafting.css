@@ -47,3 +47,17 @@ nav, p, section, article{
     width: 100%;
     height: auto;
 }
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff; /* white text */
+}
+
+.hero img {
+    float: right;
+    width: 125 px;
+}
