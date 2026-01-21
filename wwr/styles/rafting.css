@@ -34,6 +34,7 @@ h1, h2 {
 nav, p, section, article{
     margin: 16px;
     padding: 8px;
+    font-family: var(--secondary-color);
 }
 
 .socialmedia a {
@@ -59,6 +60,8 @@ nav, p, section, article{
 }
 .hero article {
     float: right;
+    position: relative;
+    
 }
 
 .hero img {
