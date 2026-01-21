@@ -60,11 +60,14 @@ nav, p, section, article{
 }
 .hero article {
     float: right;
-    position: relative;
+    position: absolute;
     
+}
+.hero article img {
+    float:right;
 }
 
 .hero img {
     float: right;
-    width: 125 px;
+    width: 125px;
 }
