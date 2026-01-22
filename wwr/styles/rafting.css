@@ -1,8 +1,8 @@
 :root{
     --primary-color: rgb(68, 63, 56); /*tan*/
-    --secondary-color: rgb(7, 0, 0); /*White*/  
+    --secondary-color: rgb(7, 0, 0); /*teal*/  
     --accent1-color: rgb(252, 251, 251); /*coral*/
-    --accent2-color: rgb(68, 140, 207); /*black*/
+    --accent2-color: rgb(68, 140, 207); /*lightblue*/
     --heading-font: "Times New Roman", Times, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -56,7 +56,7 @@ article, section, p, nav {
 }
 .hero {
     position: relative;
-    min-height: 400px;
+    min-height: 60px;
 
 }
 .hero img {
