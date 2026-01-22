@@ -1,8 +1,8 @@
 :root{
     --primary-color: rgb(68, 63, 56); /*tan*/
-    --secondary-color: rgb(253, 253, 253); /*White*/  
-    --accent1-color: rgb(17, 8, 5); /*coral*/
-    --accent2-color: rgb(27, 16, 21); /*black*/
+    --secondary-color: rgb(7, 0, 0); /*White*/  
+    --accent1-color: rgb(252, 251, 251); /*coral*/
+    --accent2-color: rgb(68, 140, 207); /*black*/
     --heading-font: "Times New Roman", Times, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
