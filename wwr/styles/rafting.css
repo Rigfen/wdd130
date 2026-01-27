@@ -1,8 +1,8 @@
 :root{
     --primary-color: rgb(68, 63, 56); /*tan*/
     --secondary-color: rgb(7, 0, 0); /*teal*/  
-    --accent1-color: rgb(252, 251, 251); /*coral*/
-    --accent2-color: rgb(68, 140, 207); /*lightblue*/
+    --accent1-color: rgb(41, 37, 37); /*coral*/
+    --accent2-color: rgb(183, 209, 233); /*lightblue*/
     --heading-font: "Times New Roman", Times, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -51,9 +51,10 @@ nav  {
     display:flex;
     justify-content: flex-end;
     gap: 2rem;
+    color: var(--accent2-color)
     
 }
-article, section, p, nav {
+article, section, p {
     color: var(--secondary-color)
 }
 .socialmedia a {
