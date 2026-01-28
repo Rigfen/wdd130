@@ -3,7 +3,7 @@
     --secondary-color: rgb(7, 0, 0); /*teal*/  
     --accent1-color: rgb(41, 37, 37); /*coral*/
     --accent2-color: rgb(183, 209, 233); /*lightblue*/
-    --heading-font: "Times New Roman", Times, serif;
+    --heading-font: "Times New Roman", "Times", "serif";
     --body-font: Arial, Helvetica, sans-serif;
 }
 
