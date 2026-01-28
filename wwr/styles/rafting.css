@@ -64,7 +64,7 @@ article, section, p {
 
 }
 .hero img {
-    display:relative;
+    display: block;
     width: 20%;
     
 }
