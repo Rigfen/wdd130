@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer{
+    margin: 20px 0;
+    text-align:center;
+}
+main{
+    margin: 0 auto;
+    flex: 1;
+
+}
+
+form{
+    background-color: rgb(187, 211, 203);
+    max-width: 600px;
+    border: 2px solid rgb(43, 41, 41);
+    padding: 30px;
+    border-radius: 5px;
+    display: grid;
+    gap: 10px;
+}
+
+input, select, textarea{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(43, 41, 41);
+
+
+}
+
+button{
+    background-color: blue;
+    color: aliceblue;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
