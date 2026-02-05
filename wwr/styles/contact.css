@@ -29,7 +29,8 @@ body{
 main{
     width: 1000px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1px;
+    text-align: center;
 }
 h1, h2 {
     font-family: var(--heading-font);
