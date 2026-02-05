@@ -24,7 +24,7 @@
     <main>
         <section class="buisness-info">
             <img src="images/rafting14_1024.jpg" alt="Concur Rafting" width="100">
-
+  
             <h1>Splash N Pass WWR</h1>
             <article>
                 <h2>Address</h2>
@@ -33,7 +33,6 @@
                     <p>State: MD</p>
                     <p>City: Baltimore</p>
                     <p>Post Code: 21201</p>
-
                 </p>
             </article>
         </div>
@@ -43,32 +42,37 @@
         </div>
 <section class="contact-grid">
 
-        <form>
-            <label>Name
-                <input type="text" placeholder="Your name">
-            </label>
+      <form action="">
+        <label for="q1">Name?</label>
+        <input type="text" name="q1" id="q1">
+        <label for=q2>Email?</label>
+        <textarea name=q2 id=q2 col="30" rows="5"></textarea>
+        <label for="q3">Message Purpose</label>
+          <label>
+    <input type="radio" name="purpose" value="general">
+    General Inquiry
+  </label>
 
-            <label>Email
-                <input type="email" placeholder="Your email">
-            </label>
+  <label>
+    <input type="radio" name="purpose" value="reservation">
+    Reservation Question
+  </label>
 
-            <fieldset class="form-options">
-                <legend>Message Purpose</legend>
-                <label><input type="radio" name="purpose"> General Inquiry</label>
-                <label><input type="radio" name="purpose"> Reservation Question</label>
-                <label><input type="radio" name="purpose"> Website Suggestion</label>
-            </fieldset>
+  <label>
+    <input type="radio" name="purpose" value="suggestion">
+    Website Suggestion
+  </label>
+        <select name="q3" id="q3">
+            <option value="" selected disabled>Choose One...............</option>
+            <option value="">Dont choose this</option>
+            <option value="">It might be a while ride</option>
+            <option value="">This is the answer</option>
 
-            <label>Message
-                <textarea placeholder="Type here"></textarea>
-            </label>
-
-            <label class="checkbox">
-                <input type="checkbox"> Please subscribe me to the monthly newsletter
-            </label>
-
-            <button type="submit">Get in Touch!</button>
-        </form>
+        </select>
+        <label for="q4">What is the button margin given this declaration?</label>
+        <input type="number" name="q4" id="q4">
+        <button type="Submit">Submit Quiz</button>
+    </form>
 
     </section>
         
