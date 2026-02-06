@@ -36,38 +36,38 @@
                 </p>
             </article>
         </div>
+    </main>
         <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3088.159821182197!2d-76.626363711145!3d39.284625899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDE3JzA0LjciTiA3NsKwMzcnMTguNCJX!5e0!3m2!1sen!2suk!4v1770328507138!5m2!1sen!2suk" width="600" height="450" allowfullscreen="" loading="lazy" 
             alt="Map location" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 <section class="contact-grid">
 
-    <form action="">
-        <label for="q1">Name?</label>
+    <form action="#">
+        <label for="q1">Name</label>
         <input type="text" name="q1" id="q1">
-        <label for=q2>Email?</label>
+        <label for=q2>Email</label>
         <input type="text" name=q2 id=q2>
         <label for="q3">Message Purpose</label>
-          <label>
-    <input type="radio" name="purpose" value="general">
+    <label for="radio">
+    <input type="radio" id="general" name="purpose" value="general">
     General Inquiry
-    <input type="radio" name="purpose" value="suggestion">
+    <input type="radio" id="reservation" name="purpose" value="reservation">
     Reservation Question
-    <input type="radio" name="purpose" value="suggestion">
+    <input type="radio" id="concerns" name="purpose" value="concerns">
     Concerns
-    <input type="radio" name="purpose" value="suggestion">
-    Complaints
+
   </label>
     Message
-  <textarea name="message" rows="5" placeholder="Type your message here..."></textarea>
+  <textarea id="message" name="message" rows="5" placeholder="Type your message here..."></textarea>
 
-  <label>
-    <input type="checkbox" name="checkbox" value="suggestion">
+  <label for="subscribe">
+    <input type="checkbox" id="subscribe" value="subscribe">
     Please subscribe to my website
     
   </label>
         
-        <button type="Submit">Submit Quiz</button>
+    <button type="Submit">Submit Quiz</button>
     </form>
 
     </section>
