@@ -121,3 +121,8 @@ section{
     max-width: 900px;
     margin: 2rem auto;
 }
+
+button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
