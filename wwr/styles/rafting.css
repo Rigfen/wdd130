@@ -113,16 +113,51 @@ form{
     
 }
 
-section{
+.contact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    align-items: end;
+    align-items: start;
     max-width: 900px;
     margin: 2rem auto;
 }
 
+.map {
+    grid-column: 1;
+}
+
+.contact-grid form {
+    grid-column: 2;
+}
+
+
 button:hover{
     background-color: blueviolet;
     cursor: pointer;
+}
+
+.serve-you {
+    max-width: 900px;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.serve-you h2 {
+    margin-bottom: 2rem;
+}
+
+.serve-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.serve-grid img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.serve-grid figcaption {
+    margin-top: 0.5rem;
+    font-weight: bold;
 }
