@@ -154,6 +154,7 @@ button:hover{
 
 .serve-grid img {
     width: 100%;
+    height: 300px;
     border-radius: 6px;
 }
 
