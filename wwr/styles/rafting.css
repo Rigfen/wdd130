@@ -1,8 +1,12 @@
-:root{
-    --primary-color: rgb(68, 63, 56); /*tan*/
-    --secondary-color: rgb(7, 0, 0); /*teal*/  
-    --accent1-color: rgb(41, 37, 37); /*coral*/
-    --accent2-color: rgb(183, 209, 233); /*lightblue*/
+:root {
+    --primary-color: rgb(68, 63, 56);
+    /*tan*/
+    --secondary-color: rgb(7, 0, 0);
+    /*teal*/
+    --accent1-color: rgb(41, 37, 37);
+    /*coral*/
+    --accent2-color: rgb(183, 209, 233);
+    /*lightblue*/
     --heading-font: "Times New Roman", "Times", "serif";
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -16,61 +20,76 @@ header {
     padding: 1rem;
 
 }
-*{
+
+* {
     MARGIN: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: var(--body-font);
-    color: var(--accent1-color);  
+    color: var(--accent1-color);
 }
 
-main{
-   margin: 0 auto;
+main {
+    margin: 0 auto;
     flex: 1;
     text-align: center;
 }
-h1, h2 {
+
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
 }
 
-article,section{
+h2 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+article,
+section {
     margin: 10px;
     padding: 8px;
-    
+
 }
 
- p  {
+p {
     margin: 1rem 0;
     padding: 0;
-    
-}
-nav  {
-    display:flex;
-    gap: 2rem;
-    color: var(--accent2-color)
-    
+
 }
 
-article, section, p {
+nav {
+    display: flex;
+    gap: 2rem;
+    color: var(--accent2-color)
+}
+
+article,
+section,
+p {
     color: var(--secondary-color)
 }
+
 .hero {
     position: relative;
     min-height: 400px;
 
 }
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
-    
+
 }
 
-.socialmedia a{
+.socialmedia a {
     text-decoration: none;
 }
 
@@ -79,36 +98,40 @@ article, section, p {
     top: 30%;
     width: 100%;
     padding: 1rem;
-    text-align: center ;
+    text-align: center;
     background-color: var(--accent1-color);
-    color: #fff; /* white text */
+    color: #fff;
+    /* white text */
 }
+
 .hero article {
-    position: absolute;
+    position: static;
     bottom: 1rem;
-    left: 20px;
+    margin: 1rem auto;
     width: 300px;
     background-color: var(--accent2-color);
     padding: 1rem;
 }
+
 .hero article img {
-    
+
     display: block;
     width: 110px;
     height: auto;
-    margin-top:0.5rem
+    margin-top: 0.5rem
 }
 
-footer{
+footer {
     width: 600px;
     margin: 0 auto;
-    padding: 1rem;}
+    padding: 1rem;
+}
 
-figure{
+figure {
     text-align: center;
 }
 
-form{
+form {
     background-color: rgb(231, 240, 237);
     max-width: 400px;
     border: 2px solid rgb(43, 41, 41);
@@ -116,7 +139,7 @@ form{
     border-radius: 5px;
     display: grid;
     gap: 5px;
-    
+
 }
 
 .contact-grid {
@@ -136,8 +159,7 @@ form{
     grid-column: 2;
 }
 
-
-button:hover{
+button:hover {
     background-color: blueviolet;
     cursor: pointer;
 }
@@ -169,7 +191,7 @@ button:hover{
     font-weight: bold;
 }
 
-aside{
+aside {
     text-align: center;
 }
 
@@ -191,8 +213,8 @@ aside{
     flex-shrink: 0;
 }
 
-.box{
-    display:flex
+.box {
+    display: flex
 }
 
 .trip-table-section {
