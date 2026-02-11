@@ -54,6 +54,7 @@ nav  {
     color: var(--accent2-color)
     
 }
+
 article, section, p {
     color: var(--secondary-color)
 }
@@ -64,7 +65,8 @@ article, section, p {
 }
 .hero img {
     display: block;
-    width: 20%;
+    width: 100%;
+    height: auto;
     
 }
 
@@ -85,11 +87,16 @@ article, section, p {
     position: absolute;
     bottom: 1rem;
     left: 20px;
+    width: 300px;
     background-color: var(--accent2-color);
     padding: 1rem;
 }
 .hero article img {
-    float:right;
+    
+    display: block;
+    width: 110px;
+    height: auto;
+    margin-top:0.5rem
 }
 
 footer{
@@ -160,4 +167,93 @@ button:hover{
 .serve-grid figcaption {
     margin-top: 0.5rem;
     font-weight: bold;
+}
+
+aside{
+    text-align: center;
+}
+
+.form-images-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.form-images-container form {
+    flex: 1;
+    min-width: 250px;
+}
+
+.contact-images {
+    display: flex;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.box{
+    display:flex
+}
+
+.trip-table-section {
+    max-width: 1000px;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.trip-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.trip-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.trip-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.trip-gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.trip-gallery figcaption {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.cta {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
